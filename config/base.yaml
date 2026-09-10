@@ -28,8 +28,14 @@ execution:
   allow_partial_fill: true
 
 cost:
-  commission_rate: null
+  commission_rate: 0.001
+  slippage_rate: 0.0005
   minimum_commission: null
   stamp_tax_rate: null
   transfer_fee_rate: null
-  slippage_rate: null
+
+  risk:
+  dynamic_position_enabled: true
+  stop_loss_enabled: true
+  stop_loss_threshold: null
+  max_position: null
