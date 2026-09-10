@@ -1,0 +1,7 @@
+numpy
+pandas
+PyYAML
+jupyter
+matplotlib
+scikit-learn
+vnpy==4.4.0
