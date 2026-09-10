@@ -1,0 +1,34 @@
+# Python虚拟环境
+.venv/
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter缓存
+.ipynb_checkpoints/
+
+# macOS文件
+.DS_Store
+
+# 本地环境变量
+.env
+
+# 原始数据和处理数据
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# 临时结果
+results/*
+!results/.gitkeep
+
+# 模型权重
+*.pt
+*.pth
+*.ckpt
+
+# 日志
+logs/

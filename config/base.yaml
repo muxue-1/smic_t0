@@ -1,0 +1,35 @@
+project:
+  name: smic_t0
+  symbol: "688981"
+  exchange: SSE
+  timezone: Asia/Shanghai
+  random_seed: 42
+
+data:
+  bar_interval_minutes: 5
+  timestamp_label: null
+  adjustment_method: null
+  raw_data_read_only: true
+
+position:
+  initial_base_position: 10000
+  allow_short: false
+  enforce_t1: true
+  max_t_trade_ratio: 0.20
+
+signal:
+  prediction_horizon_minutes: 30
+  buy_threshold: 0.60
+  sell_threshold: 0.40
+
+execution:
+  execution_delay_bars: 1
+  order_unit: null
+  allow_partial_fill: true
+
+cost:
+  commission_rate: null
+  minimum_commission: null
+  stamp_tax_rate: null
+  transfer_fee_rate: null
+  slippage_rate: null
